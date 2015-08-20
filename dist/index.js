@@ -14,6 +14,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 
 var _reactNative = require('react-native');
 
+var { Dimensions } = React;
+
 // Using bare setTimeout, setInterval, setImmediate
 // and requestAnimationFrame calls is very dangerous
 // because if you forget to cancel the request before
@@ -26,7 +28,7 @@ var _reactTimerMixin = require('react-timer-mixin');
 
 var _reactTimerMixin2 = _interopRequireDefault(_reactTimerMixin);
 
-var _Dimensions = require('Dimensions');
+var _Dimensions = Dimensions;
 
 var _Dimensions2 = _interopRequireDefault(_Dimensions);
 
